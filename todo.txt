@@ -1,0 +1,7 @@
+- add reference of usage from icon8 '<a target="_blank" href="https://icons8.com/icon/RQGrXdtQw2CT/alarm-clock">Alarm Clock</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>'
+
+
+
+
+- look at the different sections of the web application
+- look at the different UI of the web application

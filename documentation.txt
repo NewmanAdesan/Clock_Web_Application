@@ -1,0 +1,180 @@
+
+
+for small screens we hav the header, side bar navigation, main
+for medium screens we have the icons sidebar navigation & the main. the header is in the body
+for large screens we have the full sidebar navigation & the 
+
+the sidebar navigatio is positions out of flow
+
+
+the Focus Sessions route
+the Timer route
+the Alarm route
+the Stopwatch route
+the World clock route
+
+
+
+
+
+
+
+lets inspect the gray colors
+    THE FOCUS TIMER 
+        background color hsl(0, 0%, 15%)
+        surface color hsl(0, 0%, 20%)
+        white color hsl(0, 0%, 100%)
+        on-surfaced-light color (slightly grayish darker than white)
+        on-surface-dark color (more grayish darker thatn white)
+        on-surface-darker color (much more grayish)
+        white alpha color 1 (more opacity)
+        white alpha color 2 (less opacity)
+        primary color hsl(212, 100%, 55%)
+        primary hover color hsl(204, 83%, 50%)
+        black color
+
+
+    THE FOUS TODO
+        white color
+        on surface-light color
+        white alpha color 2
+
+
+    THE FOUS DAILY PROGRESS
+        white color
+        on-surface-light
+        surface-variant
+
+
+    THE FOCUS MUSIC
+        white color
+        on-surface-light
+
+
+    THE SIDEBAR
+        white color
+        surface color
+        primary color
+        white alpha color 3 (lesser opacity)
+
+    THE TIMER
+        white color
+        surface color
+        primary color
+        on-surface-light
+        white alpha color 3
+        dark box shadow
+
+    THE AlARM
+        surface color
+        on-surface-light color
+        on-surface-darker color
+        on-surface-darkest color
+
+
+lets inpect the font sizes
+
+body-medium
+body-small
+body-
+
+
+
+
+lets inspect the text
+
+HEADER
+    title-small
+
+SIDEBAR 
+    title-medium
+
+FOCUS SESSION
+    heading
+    display-small
+    body
+    label-small
+    title-medium
+
+TIMER
+    title-medium
+    diplay-small
+    title-large
+
+AlARM
+display-medium
+label-medium
+body
+label-medium
+
+Stopwatch
+// display-large
+// label-large
+
+
+
+CLOR INSPECTION
+FONT INSPECTION
+TEXT INSPECTION
+
+
+
+
+
+
+
+
+THE SETTING UP
+THE UI
+THE LOGIC
+THE POP UPS & ALERTS (like the no internet connection alert)
+
+
+
+============== TODO ================
+- inspect font sizes category  ✅
+- add material ui cdn & styling settings ✅
+- setup tailwind css ✅
+- div into the application starting with the header component
+    - setup reset styling ✅
+    - setup favicon
+    - how to use stack overflow effectively
+    - header UI
+    - sidebar UI
+    - focus Sessions UI
+    - Alarm UI
+    - Stopwatch UI
+    - world clock UI
+
+
+
+
+
+
+
+ICONS
+    - windows menu/toggle-navigation
+    - windows clock
+    - windows keep on top
+    - windows see more
+    - windows play
+    - check/correct/mark colored deepblue & blue
+    - x
+    - pencil/edit
+    - spotify
+    - focus Sessions
+    - Timer
+    - Alarm
+    - Stopwatch
+    - world clock
+    - sign-in
+    - settings
+    - expand
+    - restore
+
+
+
+
+
+the app component renders the Header component 
+using styling set the app component to have a 100% width & 100vh minimum width with 'background' bg color

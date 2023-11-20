@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .all-unset { all: unset; }
+  .no-content { content: ""; }
+  .overflow-x-overlay { overflow-x: overlay; }
+  .overflow-y-overlay { overflow-y: overlay; }
+  .no-background-no-border { background: none; border: none;}
+  .font-inherit {font: inherit};
+  .color-inherit {color: inherit};
+}
+
+*, 
+::before,
+::after { @apply m-0 p-0 box-border; }
+li { @apply list-none; }
+input { @apply w-full; }
+button { @apply text-left cursor-pointer; }
+span, iframe, button { @apply block } 
+input, button { @apply no-background-no-border font-inherit; }
+input, button { @apply color-inherit }
+
